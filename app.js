@@ -1,9 +1,11 @@
+const express = require('express');
+const app = express();
 var http = require('http');
 var port = 3000;
 
-http.createServer(function(req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello from the Testing frontend server\n');
-}).listen(port);
+app.use(express.static('public'));
+app.use(express.static('node_modules'));
 
-console.log('Testing-app listening on port', port);
+app.listen(port, function(){
+   console.log('Testing-app listening on port', port)
+});
