@@ -1,0 +1,61 @@
+header {
+    background: hsl(43,86%,94%);
+    height: 13vh;
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+    font-family: 'Squada One', cursive;
+    font-size: 11vh;
+    color: hsl(175,58%,39%);
+    margin-left: 5vw;
+
+}
+
+.logo img {
+    height: 11vh;
+    margin-top: 1vh;
+}
+
+.signedOutFrame {
+    height: 84vh;
+    background: hsl(43,86%,94%);
+}
+
+.topHalf {
+    height: 63vh;
+    display: flex;
+}
+
+#prompt {
+    width: 20%;
+    border: .5vw solid hsl(44,41%,88%);
+}
+
+#prompt h1 {
+    font-family: 'Squada One', cursive;
+    font-size: 9vh;
+}
+
+#prompt h4 {
+    font-family: 'Squada One', cursive;
+    font-size: 4vh;
+}
+#signOn {
+    width:80%;
+    border: .5vw solid hsl(44,41%,88%);
+}
+footer {
+    background: hsl(43,86%,94%);
+    color: hsl(359,53%,56%);
+    text-align: center;
+    font-family: 'Squada One', cursive;
+    height: 3vh;
+    font-size: 3vh;
+}
+
+h4 {
+    text-decoration: none;
+    color: #942;
+}
