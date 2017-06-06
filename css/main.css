@@ -31,6 +31,7 @@ header {
 #prompt {
     width: 20%;
     border: .5vw solid hsl(44,41%,88%);
+    font-family: 'Squada One', cursive;
 }
 
 #prompt h1 {
@@ -41,6 +42,13 @@ header {
 #prompt h4 {
     font-family: 'Squada One', cursive;
     font-size: 4vh;
+    margin: 1vh 0;
+    color: hsl(359,53%,56%);
+}
+
+#codingBlock {
+    width:80%;
+    border: .5vw solid hsl(44,41%,88%);
 }
 #signOn {
     width:80%;
@@ -55,7 +63,7 @@ footer {
     font-size: 3vh;
 }
 
-h4 {
-    text-decoration: none;
-    color: #942;
+.CodeMirror {
+    height: 52vh;
+    font-family: 'Squada One', cursive;
 }

@@ -15,7 +15,7 @@
         $stateProvider
             .state('intro', {
                 url: '/',
-                component: 'signedOutFrame',
+                component: 'signedInFrame',
             })
             .state('add', {
                 url: '/new',
