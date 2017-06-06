@@ -4,7 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "forever": "forever start app.js",
+    "again": "forever restart app.js",
+    "stop": "forever stopall"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +18,7 @@
     "angular-ui-router": "^1.0.3",
     "chai": "^4.0.2",
     "mocha": "^3.4.2",
-    "supertest": "^3.0.0"
+    "supertest": "^3.0.0",
+    "express": "^4.15.3"
   }
 }
