@@ -15,11 +15,11 @@
         $stateProvider
             .state('intro', {
                 url: '/',
-                component: 'signedInFrame',
+                component: 'signedOutFrame',
             })
-            .state('add', {
-                url: '/new',
-                component: 'addPost'
+            .state('game', {
+                url: '/start',
+                component: 'signedInFrame'
             })
         // etc...
     }

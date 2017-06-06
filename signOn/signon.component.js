@@ -6,7 +6,7 @@
     angular.module('app')
         .component('signOn', {
             controller: 'signOnController',
-            template: `<h1> This is the sign on page</h1>`
+            templateUrl: '/signOn/signOn.html'
 
     })
 })()

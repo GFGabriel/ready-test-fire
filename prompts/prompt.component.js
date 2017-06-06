@@ -11,6 +11,6 @@
             template: `
                         <h1>PROMPT:</h1>
                         <h4> Language: JavaScript </h4>
-                        <p>Write a function that takes in an array and returns all of the even nummbers.</p>`
+                        <p>Return a string: <em>This Works!</em></p>`
         })
 })()
